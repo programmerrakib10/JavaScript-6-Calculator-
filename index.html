@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="hero-section">
+    <h2 class="h21">Basic Calculator JavaScript</h2>
+    <div class="input">
+        <input type="number" id="inputOne" value="" placeholder="Enter value 1">
+        <input type="number" id="inputTwo" value="" placeholder="Enter value 2">
+    </div>
+    <div class="button">
+        <button id="add" onclick="add()">ADD + </button>
+        <button id="subtract" onclick="subtract()">Subtract - </button>
+        <button id="Multiplication" onclick="multiplication()">Multiplication * </button>
+        <button id="Division" onclick="division()">Division / </button>
+    </div>
+    <div class="result">
+        <h2>See Result : <span id="result">0</span></h2>
+    </div>
+   </section>
+   <script src="calculator.js"></script>
+</body>
+</html>
